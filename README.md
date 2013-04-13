@@ -3,6 +3,9 @@ open-advice
 
 Macros pour simplifier le travail de relecture
 
+Les fichiers 'macro' et 'orcam' n'ont pas besoin d'extension de fichier. Il est préférable de les enregistrer 
+dans le même dossier que le fichier à modifier.
+
 
 Le fichier 'macro' simplifie la lecture en convertissant l'html vers quelque chose de lisible.
 De plus, il propose de corriger les espaces insécables obligatoires (devant !,?,;,:, etc.) ainsi que 
