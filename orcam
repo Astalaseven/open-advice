@@ -1,0 +1,13 @@
+" Remet les accents correctement, corrige les apostrophes
+:%s/è/\&egrave;/g
+:%s/é/\&eacute;/g
+:%s/à/\&agrave;/g
+:%s/—/\&mdash;/g
+:%s/ç/\&ccedil;/g
+:%s/'/\&rsquo;/g
+:%s/û/\&ucirc;/g
+:%s/ê/\&ecirc;/g
+:%s/«/\&laquo;/g
+:%s/»/\&raquo;/g
+:%s/ô/\&ocirc;/g
+:%s/œ/\&oelig;/g
