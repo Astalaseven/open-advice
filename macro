@@ -13,7 +13,7 @@
 :%s/&oelig;/œ/g
 
 " Orthographe + italique
-:%s/événement/évènement/g
+:%s/évènement/événement/g
 :%s/ open source / <em>open source<\/em> /gc
 :%s/ open source\./ <em>open source<\/em>./gc
 :%s/'open source /'<em>open source<\/em> /gc
