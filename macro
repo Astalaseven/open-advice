@@ -15,7 +15,7 @@
 " Orthographe + italique
 :%s/événement/évènement/g
 :%s/ open source / <em>open source<\/em> /gc
-:%s/ open source./ <em>open source<\/em>./gc
+:%s/ open source\./ <em>open source<\/em>./gc
 :%s/'open source /'<em>open source<\/em> /gc
 
 " Espaces insécables
