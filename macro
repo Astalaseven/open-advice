@@ -1,0 +1,34 @@
+" Modifications visuelles pour simplifier la relecture
+:%s/&egrave;/è/g
+:%s/&eacute;/é/g
+:%s/&agrave;/à/g
+:%s/&mdash;/—/g
+:%s/&ccedil;/ç/g
+:%s/&rsquo;/'/g
+:%s/&ucirc;/û/g
+:%s/&ecirc;/ê/g
+:%s/&laquo;/«/g
+:%s/&raquo;/»/g
+:%s/&ocirc;/ô/g
+:%s/&oelig;/œ/g
+
+" Orthographe + italique
+:%s/événement/évènement/g
+:%s/ open source / <em>open source<\/em> /gc
+:%s/ open source./ <em>open source<\/em>./gc
+:%s/'open source /'<em>open source<\/em> /gc
+
+" Espaces insécables
+:%s/ :/\&nbsp;:/gc
+:%s/ ;/\&nbsp;;/gc
+:%s/« /«\&nbsp;/gc
+:%s/ »/\&nbsp;»/gc
+:%s/ !/\&nbsp;!/gc
+:%s/ ?/\&nbsp;?/gc
+:%s/\.\.\./\&hellip;/gc
+:%s/ —/\&nbsp;—/gc
+:%s/— /—\&nbsp;/gc
+
+" Espace insécable devant le dernier mot du paragraphe
+:%s/.*\zs [^"]*\./\&nbsp;\0/gc
+:%s/&nbsp; /\&nbsp;/gc
