@@ -2,7 +2,7 @@
 :%s/è/\&egrave;/g
 :%s/é/\&eacute;/g
 :%s/à/\&agrave;/g
-:%s/—/\&mdash;/g
+:%s/&nbsp;—&nbsp;/\&nbsp;\&ndash;\&nbsp;/g
 :%s/ç/\&ccedil;/g
 :%s/'/\&rsquo;/g
 :%s/û/\&ucirc;/g
