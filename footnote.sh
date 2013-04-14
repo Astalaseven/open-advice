@@ -1,5 +1,8 @@
 #!/bin/sh
 
+## pour le rendre exécutable  :  chmod +x footnote.sh
+## usage : ./footnote.sh open-advice.html
+
 #extraction des liens
 perl -ln0e '$,="\n";print /(?<=<a title=).*?(?=<\/a>)/sg' $1 | sed -e 's/\"#.*$//' -e '/^$/d' -e 's/\"http/http/' | grep ">" | uniq > href.txt
 
