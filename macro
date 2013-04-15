@@ -31,4 +31,4 @@
 
 " Espace insécable devant le dernier mot du paragraphe
 :%s/.*\zs [^"]*\./\&nbsp;\0/gc
-:%s/&nbsp; /\&nbsp;/gc
+:%s/&nbsp; /\&nbsp;/g
